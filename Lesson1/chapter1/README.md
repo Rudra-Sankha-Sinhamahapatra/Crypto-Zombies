@@ -1,5 +1,4 @@
 
-```markdown
 # Chapter 1: Lesson Overview
 
 In Lesson 1, you're going to build a "Zombie Factory" to build an army of zombies.
@@ -15,7 +14,7 @@ In later lessons, we'll add more functionality, like giving zombies the ability 
 
 The zombie's appearance will be based on its "Zombie DNA". Zombie DNA is simple — it's a 16-digit integer, like:
 
-```plaintext
+```
 8356281049284737
 ```
 
@@ -27,7 +26,7 @@ For this tutorial, we've kept things simple, and our zombies can have only 7 dif
 
 For example, the first 2 digits of our example DNA above are `83`. To map that to the zombie's head type, we do:
 
-```plaintext
+```
 83 % 7 + 1 = 7
 ```
 
@@ -40,4 +39,4 @@ In the panel to the right, go ahead and move the head gene slider to the 7th hea
 Play with the sliders on the right side of the page. Experiment to see how the different numerical values correspond to different aspects of the zombie's appearance.
 
 Ok, enough playing around. When you're ready to continue, hit "Next Chapter" below, and let's dive into learning Solidity!
-```
+
