@@ -40,3 +40,4 @@ Play with the sliders on the right side of the page. Experiment to see how the d
 
 Ok, enough playing around. When you're ready to continue, hit "Next Chapter" below, and let's dive into learning Solidity!
 
+![alt text](image.png)
