@@ -1,0 +1,15 @@
+{
+  "name": "chapter14",
+  "version": "1.0.0",
+  "description": "Our Solidity contract is complete! Now we need to write a JavaScript frontend that interacts with the contract.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
