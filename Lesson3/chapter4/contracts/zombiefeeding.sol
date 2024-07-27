@@ -33,7 +33,9 @@ contract ZombieFeeding is ZombieFactory {
     if (keccak256(abi.encodePacked(_species)) == keccak256(abi.encodePacked("kitty"))) {
       newDna = newDna - newDna % 100 + 99;
     }
-    _createZombie("NoName", newDna);
+    uint32 level=1;
+    uint32 readyTime=4;
+    _createZombie("NoName", newDna,level,readyTime);
   }
 
   function feedOnKitty(uint _zombieId, uint _kittyId) public {
